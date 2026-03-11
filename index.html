@@ -700,9 +700,9 @@
         <a href="#floatingnotes" class="nav-item"><span class="nav-dot"></span>Floating Notes</a>
         <a href="#appswitcher" class="nav-item"><span class="nav-dot"></span>App switching</a>
         <a href="#clipboard" class="nav-item"><span class="nav-dot"></span>Clipboard history</a>
-        <a href="#folders" class="nav-item"><span class="nav-dot"></span>Open folders</a>
         <a href="#downloads" class="nav-item"><span class="nav-dot"></span>Downloads manager</a>
         <a href="#favourites" class="nav-item"><span class="nav-dot"></span>Favourites</a>
+        <a href="#folders" class="nav-item"><span class="nav-dot"></span>Open folders</a>
 
         <div class="nav-section-label">More</div>
         <a href="#extras" class="nav-item"><span class="nav-dot"></span>Bonus features</a>
@@ -899,10 +899,73 @@
           </div>
         </section>
 
-        <!-- 05 OPEN FOLDERS -->
-        <section class="section" id="folders">
+        <!-- 05 DOWNLOADS -->
+        <section class="section" id="downloads">
           <div class="section-header">
             <span class="section-number">05</span>
+            <h2 class="section-title">Downloads manager</h2>
+            <span class="section-tag tag-tip">Handy</span>
+          </div>
+          <p class="section-desc">See and open everything you've recently downloaded — without opening a browser or
+            Finder.</p>
+          <div class="steps">
+            <div class="step"><span class="step-num">01</span>
+              <div class="step-text">Open Raycast and type <strong>"Downloads"</strong></div>
+            </div>
+            <div class="step"><span class="step-num">02</span>
+              <div class="step-text">A list of your recent downloads appears. Use <strong>↑ ↓</strong> to browse</div>
+            </div>
+            <div class="step"><span class="step-num">03</span>
+              <div class="step-text">Press <strong>↵</strong> to open the file, or <strong>⌘ ↵</strong> to reveal it in
+                Finder</div>
+            </div>
+          </div>
+          <div class="callout green">
+            <span class="callout-icon">&#9650;</span>
+            <div class="callout-content">
+              <strong>Assign a shortcut:</strong> I assigned shortcuts for this, but feel free to change them! If you
+              forget, navigate to extentions. To open your latest download use
+              <strong>⌘ ⇧ ,</strong> and to open your Downloads folder use <strong>⌘ ⇧ \</strong>
+            </div>
+          </div>
+        </section>
+
+        <!-- 06 FAVOURITES -->
+        <section class="section" id="favourites">
+          <div class="section-header">
+            <span class="section-number">06</span>
+            <h2 class="section-title">Favourites</h2>
+            <span class="section-tag tag-power">Power feature</span>
+          </div>
+          <p class="section-desc">Pin the things you use every day to the top of Raycast's results. Apps, folders,
+            commands, websites — anything you open more than once a day belongs here.</p>
+          <div class="steps">
+            <div class="step"><span class="step-num">01</span>
+              <div class="step-text">Search for anything in Raycast — an app, folder, or command</div>
+            </div>
+            <div class="step"><span class="step-num">02</span>
+              <div class="step-text">Highlight the result, then press <strong>⌘ ⇧ F</strong> to add it to Favourites
+              </div>
+            </div>
+            <div class="step"><span class="step-num">03</span>
+              <div class="step-text">It now appears at the top of Raycast every time you open it — no typing needed
+              </div>
+            </div>
+            <div class="step"><span class="step-num">04</span>
+              <div class="step-text">To remove a favourite, highlight it again and press <strong>⌘ ⇧ F</strong> to unpin
+                it</div>
+            </div>
+          </div>
+          <div
+            style="margin-top:18px;border-radius:10px;overflow:hidden;border:1px solid rgba(0,0,0,0.08);box-shadow:0 1px 3px rgba(0,0,0,0.06);">
+            <img src="./favouritesimahe.png" style="width:100%;display:block;">
+          </div>
+        </section>
+
+        <!-- 07 OPEN FOLDERS -->
+        <section class="section" id="folders">
+          <div class="section-header">
+            <span class="section-number">07</span>
             <h2 class="section-title">Opening folders directly</h2>
             <span class="section-tag tag-tip">Time saver</span>
           </div>
@@ -926,6 +989,12 @@
 
           <div style="margin-top:14px;border-radius:10px;overflow:hidden;border:1px solid rgba(0,0,0,0.08);box-shadow:0 1px 3px rgba(0,0,0,0.06);">
             <img src="./extensionsimage.png" style="width:100%;display:block;">
+          </div>
+          <div style="margin-top:8px;border-radius:10px;overflow:hidden;border:1px solid rgba(0,0,0,0.08);box-shadow:0 1px 3px rgba(0,0,0,0.06);">
+            <img src="./addfromstore.png" style="width:100%;display:block;">
+          </div>
+          <div style="margin-top:8px;border-radius:10px;overflow:hidden;border:1px solid rgba(0,0,0,0.08);box-shadow:0 1px 3px rgba(0,0,0,0.06);">
+            <img src="./installsearch.png" style="width:100%;display:block;">
           </div>
 
           <p style="font-size:13px;font-weight:500;color:var(--text);margin:18px 0 10px;">Setting a keyboard shortcut</p>
@@ -969,71 +1038,8 @@
             <span class="callout-icon">&#9670;</span>
             <div class="callout-content">
               <strong>Favourite a folder:</strong> If you open the same folder every day, add it to Favourites (see
-              section 09) so it appears at the top of Raycast — no typing needed.
+              the section above) so it appears at the top of Raycast — no typing needed.
             </div>
-          </div>
-        </section>
-
-        <!-- 06 DOWNLOADS -->
-        <section class="section" id="downloads">
-          <div class="section-header">
-            <span class="section-number">06</span>
-            <h2 class="section-title">Downloads manager</h2>
-            <span class="section-tag tag-tip">Handy</span>
-          </div>
-          <p class="section-desc">See and open everything you've recently downloaded — without opening a browser or
-            Finder.</p>
-          <div class="steps">
-            <div class="step"><span class="step-num">01</span>
-              <div class="step-text">Open Raycast and type <strong>"Downloads"</strong></div>
-            </div>
-            <div class="step"><span class="step-num">02</span>
-              <div class="step-text">A list of your recent downloads appears. Use <strong>↑ ↓</strong> to browse</div>
-            </div>
-            <div class="step"><span class="step-num">03</span>
-              <div class="step-text">Press <strong>↵</strong> to open the file, or <strong>⌘ ↵</strong> to reveal it in
-                Finder</div>
-            </div>
-          </div>
-          <div class="callout green">
-            <span class="callout-icon">&#9650;</span>
-            <div class="callout-content">
-              <strong>Assign a shortcut:</strong> I assigned shortcuts for this, but feel free to change them! If you
-              forget, navigate to extentions. To open your latest download use
-              <strong>⌘ ⇧ ,</strong> and to open your Downloads folder use <strong>⌘ ⇧ \</strong>
-            </div>
-          </div>
-        </section>
-
-        <!-- 07 FAVOURITES -->
-        <section class="section" id="favourites">
-          <div class="section-header">
-            <span class="section-number">07</span>
-            <h2 class="section-title">Favourites</h2>
-            <span class="section-tag tag-power">Power feature</span>
-          </div>
-          <p class="section-desc">Pin the things you use every day to the top of Raycast's results. Apps, folders,
-            commands, websites — anything you open more than once a day belongs here.</p>
-          <div class="steps">
-            <div class="step"><span class="step-num">01</span>
-              <div class="step-text">Search for anything in Raycast — an app, folder, or command</div>
-            </div>
-            <div class="step"><span class="step-num">02</span>
-              <div class="step-text">Highlight the result, then press <strong>⌘ ⇧ F</strong> to add it to Favourites
-              </div>
-            </div>
-            <div class="step"><span class="step-num">03</span>
-              <div class="step-text">It now appears at the top of Raycast every time you open it — no typing needed
-              </div>
-            </div>
-            <div class="step"><span class="step-num">04</span>
-              <div class="step-text">To remove a favourite, highlight it again and press <strong>⌘ ⇧ F</strong> to unpin
-                it</div>
-            </div>
-          </div>
-          <div
-            style="margin-top:18px;border-radius:10px;overflow:hidden;border:1px solid rgba(0,0,0,0.08);box-shadow:0 1px 3px rgba(0,0,0,0.06);">
-            <img src="./favouritesimahe.png" style="width:100%;display:block;">
           </div>
         </section>
 
